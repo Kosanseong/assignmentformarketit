@@ -1,0 +1,21 @@
+spring:
+  datasource:
+    driver-class-name: org.h2.Driver
+    url: jdbc:h2:tcp://localhost/~/local
+    hikari:
+      username: sa
+  h2:
+    console:
+      enabled: true
+
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
+
+logging:
+  level:
+    org.springframework.data: debug
+    jdbc: off
+    jdbc.resultsettable: debug
+    jdbc.sqltiming: debug
