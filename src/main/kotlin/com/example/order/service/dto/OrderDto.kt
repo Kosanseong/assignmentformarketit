@@ -3,7 +3,6 @@ package com.example.order.service.dto
 import com.example.order.controller.response.OrderResponse
 import com.example.order.entity.order.Order
 import com.example.order.entity.order.OrderId
-import com.example.order.entity.product.Product
 import com.example.order.entity.product.ProductId
 import com.example.order.entity.user.UserId
 import java.time.OffsetDateTime
